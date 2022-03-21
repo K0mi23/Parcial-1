@@ -38,6 +38,7 @@ namespace Parcial_1
                                       .FormattedValue.ToString()!= String.Empty select 
                                       Convert.ToDecimal(Linea.Cells[1].FormattedValue)).Average().ToString();
 
+
         }
         private void leerArchivo()
         {
