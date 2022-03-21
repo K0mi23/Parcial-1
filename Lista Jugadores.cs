@@ -39,6 +39,7 @@ namespace Parcial_1
                                       Convert.ToDecimal(Linea.Cells[1].FormattedValue)).Average().ToString();
 
 
+
         }
         private void leerArchivo()
         {
