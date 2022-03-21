@@ -40,7 +40,6 @@ namespace Parcial_1
 
 
 
-
         }
         private void leerArchivo()
         {
