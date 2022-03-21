@@ -46,14 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarEquipos.Designer.cs">
+      <DependentUpon>AgregarEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosJugador.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lista Jugadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista Jugadores.Designer.cs">
+      <DependentUpon>Lista Jugadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgregarEquipos.resx">
+      <DependentUpon>AgregarEquipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista Jugadores.resx">
+      <DependentUpon>Lista Jugadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
